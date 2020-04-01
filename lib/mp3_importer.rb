@@ -13,6 +13,7 @@ class MP3Importer
     return_files = []
     my_files.each do |file|
       binding.pry
+      result = file.scan(/[.]\w+/)
       if file.scan(/[.]\w+/) == ".mp3"
         my_split = file.split(/[.]\w+/)
         binding.pry
