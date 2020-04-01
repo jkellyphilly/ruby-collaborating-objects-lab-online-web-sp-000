@@ -18,6 +18,10 @@ class Artist
 
   end
 
+  def print_songs
+
+  end
+
   def self.all
 
   end
