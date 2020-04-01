@@ -17,6 +17,7 @@ class MP3Importer
         my_split = file.split(/[.]\w+/)
         return_files << my_split
       end
+      binding.pry
     end
   end
 
