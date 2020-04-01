@@ -15,6 +15,7 @@ class MP3Importer
       binding.pry
       if file.scan(/[.]\w+/) == ".mp3"
         my_split = file.split(/[.]\w+/)
+        binding.pry
         return_files << my_split
       end
       binding.pry
