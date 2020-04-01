@@ -9,7 +9,7 @@ class MP3Importer
   def files
     my_files = Dir.entries(@path) #.select {|file| file.scan(/[.]\w+/) == ".mp3"}
     my_files.each do |file|
-
+      if file.scan(/[.]\w+/)
     end
   end
 
