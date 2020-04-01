@@ -30,6 +30,7 @@ class Artist
       self.new(artist_name)
     else
       @@all.find {|artist| artist.name == artist_name}
+    end
   end
 
 end
