@@ -14,6 +14,7 @@ class MP3Importer
       binding.pry
       if file.scan(/[.]\w+/) == ".mp3"
 
+      end
     end
   end
 
