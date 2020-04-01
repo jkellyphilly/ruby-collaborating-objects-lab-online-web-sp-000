@@ -6,7 +6,11 @@ class Artist
     @name = name
   end
 
-  def all
+  def add_song
+
+  end
+
+  def self.all
 
   end
 
