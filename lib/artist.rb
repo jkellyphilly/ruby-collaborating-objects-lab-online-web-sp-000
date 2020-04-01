@@ -14,15 +14,15 @@ class Artist
 
   end
 
-  def self.find_or_create_by_name(artist)
-
-  end
-
   def print_songs
 
   end
 
   def self.all
+
+  end
+
+  def self.find_or_create_by_name(artist)
 
   end
 
