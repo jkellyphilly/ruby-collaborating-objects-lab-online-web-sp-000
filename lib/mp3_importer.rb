@@ -7,7 +7,7 @@ class MP3Importer
   end
 
   def files
-    Dir.entries(@path).select {|file| file.extname == ".mp3"}
+    my_files = Dir.entries(@path).select {|file| file.scan(/[.]\w+/) == ".mp3"}
   end
 
   def import
