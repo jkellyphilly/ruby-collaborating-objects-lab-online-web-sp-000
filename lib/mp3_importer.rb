@@ -8,7 +8,6 @@ class MP3Importer
 
   def files
     my_files = Dir.entries(@path) #.select {|file| file.scan(/[.]\w+/) == ".mp3"}
-    puts my_files
   end
 
   def import
