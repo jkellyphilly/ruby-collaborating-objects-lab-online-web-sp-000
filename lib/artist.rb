@@ -14,7 +14,7 @@ class Artist
   end
 
   def songs
-    Song.all == [] ? nil : Song.all.select {|song| song.artist == self}
+    Song.all.select {|song| song.artist == self}
   end
 
   def print_songs
